@@ -1,0 +1,50 @@
+body{
+  background-color:rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+
+.move-icon{
+  height: 50px;
+  
+}
+
+.move-button{
+  background-color: transparent;
+  border: 4px solid white;
+  border-radius: 60%;
+  width: 110px;
+  height: 110px;
+  margin-right:10px ;
+  cursor: pointer;
+  
+}
+
+
+.cs-result{
+  font-weight: bold;
+  font-size: 25px;
+  margin: 50px 0;
+  
+}
+  
+
+
+
+.cs-score{
+  margin-top: 60px;
+
+}
+
+.reset-score{
+  background-color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+  
