@@ -37,7 +37,7 @@ body{
 
 }
 
-.reset-score{
+.reset-score, #autoplay1{
   background-color: white;
   border: none;
   padding: 10px 15px;
@@ -46,5 +46,6 @@ body{
   font-size: 15px;
 
 }
+
 
   

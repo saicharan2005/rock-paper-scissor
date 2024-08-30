@@ -3,32 +3,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
 
-  <link rel="stylesheet" href="/lesson10/style_rock.css">
+  <link rel="stylesheet" href="/style_rock.css">
   </head>
 
   <body>
 
-    <h1>Rock Paper Scissors</h1>
-    <button class="move-button" onclick=" 
-        
-        playGame('rock');
-        "> 
-    <img src="/images/rock-emoji.png" alt="rock" class="move-icon"></button> 
+    <h1>
+      Rock Paper Scissors
+    </h1>
+
+    <button class="move-button  js-rock-button"> 
+      <img src="/images/rock-emoji.png" alt="rock" class="move-icon">
+    </button> 
     
 
-    <button class="move-button" onclick=" 
-      
-      playGame('paper');
-      ">
+    <button class="move-button js-paper-button" >
       <img src="/images/paper-emoji.png" alt="rock" class="move-icon">
     </button>
     
 
-    <button class="move-button"
-      onclick=" 
-      
-        playGame('scissors');
-        ">
+    <button class="move-button js-scissor-button"
+      >
       <img src="/images/scissors-emoji.png" alt="rock" class="move-icon">
     </button>  
 
@@ -50,6 +45,11 @@
         ">Reset score
     </button>  
 
+    <button id="autoplay1"
+      onclick=" 
+      autoplay();
+        ">Auto Play
+    </button>  
 
 
 
@@ -66,7 +66,8 @@
 
 
 
-    <script src="/lesson10/rockpaper.js" ></script>
+
+    <script src="rockpaper.js" ></script>
  
     
   </body>
